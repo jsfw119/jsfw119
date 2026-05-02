@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消防技术服务项目报告查询结果</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        .header {
+            width: 100%;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            background-image: url('title-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+        }
+        .header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(22, 119, 255, 0);
+            z-index: 0;
+        }
+        .header h1 {
+            position: relative;
+            z-index: 1;
+            font-size: clamp(2rem,5vw,3rem);
+            padding: 0 20px;
+            font-weight: bold;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .info-title {
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+            padding: 8px 0;
+            border-bottom: 2px solid #1677ff;
+            margin-bottom: 10px;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table tr {
+            border-bottom: 1px solid #eee;
+        }
+        .info-table td {
+            padding: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .info-table td:first-child {
+            width: 120px;
+            color: #333;
+            font-weight: 500;
+        }
+        .report-btn {
+            display: block;
+            width: 100%;
+            background-color: #1677ff;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .report-btn:hover {
+            background-color: #4096ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1></h1>
+    </div>
+    <div class="content">
+        <div class="info-title">报告信息</div>
+        <table class="info-table">
+            <tr>
+                <td>报告编号</td>
+                <td>粤消评（MA5AWXLX3H）[2025]第00096号</td>
+            </tr>
+            <tr>
+                <td>项目名称</td>
+                <td>湖州鑫台礼贸易有限公司消防安全评估</td>
+            </tr>
+            <tr>
+                <td>单位名称</td>
+                <td>湖州鑫台礼贸易有限公司</td>
+            </tr>
+            <tr>
+                <td>单位地址</td>
+                <td>广东省潮州市湘桥区官塘镇工业小区官塘工业北路东一横1号</td>
+            </tr>
+            <tr>
+                <td>评估单位</td>
+                <td>广东众强建设发展有限公司</td>
+            </tr>
+            <tr>
+                <td>评估结果</td>
+                <td>一般</td>
+            </tr>
+            <tr>
+                <td>项目负责人</td>
+                <td>马静静</td>
+            </tr>
+            <tr>
+                <td>技术负责人</td>
+                <td>吴盈</td>
+            </tr>
+            <tr>
+                <td>完成日期</td>
+                <td>2025-01-24</td>
+            </tr>
+        </table>
+        <a href="20250124124514494_V2_S.pdf" class="report-btn">查看电子报告</a>
+    </div>
+</body>
+</html>
